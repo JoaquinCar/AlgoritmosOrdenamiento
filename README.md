@@ -6,26 +6,36 @@ Este repositorio tiene como objetivo ser una colección colaborativa de algoritm
 
 ## 📥 ¿Cómo contribuir?
 
-1. **Clona este repositorio en tu Escritorio:**
+1. **Crea un fork del repositorio:**
 
-   Abre CMD y ejecuta:
+   En este repositorio, ve a la parte superior derecha
+
+   Haz clic en el botón "Fork" que aparece arriba a la derecha
+
+   Selecciona tu cuenta para crear el fork
+
+2. **Clona tu código**
+   
+   Ve a el nuevo repositorio de tu cuenta
+
+   Haz clic en el boton verde de "Code" y copia la url que aparece en HTTPA
+
+   Abre cmd y escribe
 
    ```bash
-   cd Desktop
-   git clone https://github.com/Jarvyes14/AlgoritmosOrdenamiento.git
-   cd AlgoritmosOrdenamiento
+   git clone CopiaAquiLaDirecciónURL
 
-2. **Crea tu carpeta:**
-   
-   Abre Visual Studio Code o tu editor de texto
+3. **Prepara el entorno**
 
-   Abre la carpeta "AlgorimosOrdenamiento" que se encuentra en Desktop
+   Abre tu editor de texto (VSCode o algun otro)
 
-   Crea una nueva carpeta con el nombre de tu algoritmo de ordenamiento
+   Abre la carpeta "AlgoritmosOrdenamiento"
 
-   Copia y pega el archivo "Plantilla.py" ahí
+   Crea una nueva carpeta con el nombre de tu algoritmo
 
-3. **Implementa tu algoritmo:**
+   Copia y pega el archivo "Plantilla" dentro de tu carpeta
+
+4. **Implementa tu algoritmo:**
 
    Abre el archivo de tu carpeta
 
@@ -34,11 +44,21 @@ Este repositorio tiene como objetivo ser una colección colaborativa de algoritm
 
    Corre el codigo
 
-4. **Crea tu pull request:**
+5. **Sube tus cambios:**
 
    Abre la terminal y ejecuta:
 
    ```bash
-   git add mi_algoritmo\
+   git add .
    git commit -m "Agregando mi algoritmo de ordenamiento"
    git push origin main
+
+6. **Crea tu pull request:**
+
+   Ve a repositorio en GitHub
+
+   Verás un botón que dice "Compare & pull request" o puedes ir a la pestaña de Pull Requests
+
+   Da clic en "New pull request", selecciona tu rama main como fuente y el main del repo original como destino
+
+   Envía el Pull Request
