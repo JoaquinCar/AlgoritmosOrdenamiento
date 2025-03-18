@@ -14,7 +14,6 @@ Este repositorio tiene como objetivo ser una colección colaborativa de algoritm
    cd Desktop
    git clone https://github.com/Jarvyes14/AlgoritmosOrdenamiento.git
    cd AlgoritmosOrdenamiento
-   ´´´
 
 2. **Crea tu carpeta:**
    
@@ -43,4 +42,3 @@ Este repositorio tiene como objetivo ser una colección colaborativa de algoritm
    git add mi_algoritmo\
    git commit -m "Agregando mi algoritmo de ordenamiento"
    git push origin main
-   ´´´
